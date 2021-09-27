@@ -1,0 +1,52 @@
+@mixin respond($breakpoint) 
+  @if $breakpoint == medium 
+    @media (max-width: 1500px) 
+         @content 
+  
+  @if $breakpoint == small 
+    @media (max-width: 700px) 
+         @content 
+.main
+    display: grid
+    grid-template-columns: 2fr 1fr
+    padding-right: 10rem
+    padding-left: 10rem
+    padding-top: 30px
+    padding-bottom: 30px
+    .body-container
+        padding-right: 15px
+    @include respond(medium)
+        grid-template-columns: 1fr
+        padding-right: 1rem
+        padding-left: 1rem
+        .body-container
+            padding-right: 0
+            padding-bottom: 15px 
+    
+
+.container
+    background-color: #e1eaf1
+    
+app-ongoing-project
+    display: grid
+    grid-template-columns: 1fr 1fr 1fr
+    @include respond(medium)
+        grid-template-columns: 1fr 1fr
+    @include respond(small)
+        grid-template-columns: 1fr
+
+.onGoingText
+    padding: 15px
+    background: #ffffff
+    border: 1px solid #e1eaf1
+    display: grid
+    grid-template-columns: 1fr 1fr
+    font-size: 1.2em
+    .title
+        font-weight: 600
+    a
+        color: #00d9e0
+        text-align: right        
+        
+    
+        

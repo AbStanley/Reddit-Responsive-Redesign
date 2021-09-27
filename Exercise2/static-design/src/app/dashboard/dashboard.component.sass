@@ -1,0 +1,21 @@
+$backgroundColor: #010d1a
+$color: #ebebeb
+
+@mixin respond($breakpoint) 
+  @if $breakpoint == medium 
+    @media (max-width: 1000px) 
+         @content 
+
+.dashboard
+    margin: auto
+    padding: 10px
+    background-color: $backgroundColor
+    color: $color
+    p
+        font-size: 1.5em
+        margin-left: 10rem
+    @include respond(medium)
+        p
+            margin-left: 0rem
+            text-align: center
+    
