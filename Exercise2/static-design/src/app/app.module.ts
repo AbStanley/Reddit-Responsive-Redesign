@@ -7,6 +7,9 @@ import { ProfileComponent } from './profile/profile.component';
 import { OngoingProjectComponent } from './ongoing-project/ongoing-project.component';
 import { AsideComponent } from './aside/aside.component';
 import { ProjectComponent } from './project/project.component';
+import { DynamicComponent } from './dynamic/dynamic.component';
+import { DynamicLogComponent } from './dynamic-log/dynamic-log.component';
+import { TeamComponent } from './team/team.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +18,10 @@ import { ProjectComponent } from './project/project.component';
     ProfileComponent,
     OngoingProjectComponent,
     AsideComponent,
-    ProjectComponent
+    ProjectComponent,
+    DynamicComponent,
+    DynamicLogComponent,
+    TeamComponent
   ],
   imports: [
     BrowserModule
