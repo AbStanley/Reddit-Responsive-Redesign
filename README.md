@@ -1,3 +1,7 @@
+# Extra credit
+* Use Sass
+* https://websitew3.000webhostapp.com/
+
 # StaticDesign
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.7.
