@@ -1,8 +1,6 @@
-# Extra credit
-* Use Sass
-* https://websitew3.000webhostapp.com/
-
-# StaticDesign
+# StaticDesign for Reddit
+![](https://i.imgur.com/G5GrXnN.png)
+![](https://i.imgur.com/pv5tXyR.png)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.7.
 
